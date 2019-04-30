@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction fibo(num) {\n  var a
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fibo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fibo */ \"./src/fibo.js\");\n\nconsole.log('hello');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fibo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fibo */ \"./src/fibo.js\");\n\nconsole.log(Object(_fibo__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(8));\nconsole.log(Object(_fibo__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(2.5));\nconsole.log(Object(_fibo__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(-7));\nconsole.log(Object(_fibo__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(10).length);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
